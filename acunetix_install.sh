@@ -2,9 +2,7 @@
 
 # setup_Acunetix on Linux
 echo "[*] Updating package lists..."
-apt-get update
-echo "[*] Upgrading installed packages..."
-apt-get upgrade -y
+apt-get update -y
 
 echo "[*] Installing Acunetix Premium..."
 #install config
