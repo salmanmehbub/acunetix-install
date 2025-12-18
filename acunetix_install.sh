@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # setup_Acunetix on Linux
 echo "[*] Updating package lists..."
 apt-get update
@@ -8,13 +7,13 @@ apt-get upgrade -y
 
 echo "[*] Installing Acunetix Premium..."
 #install config
-#wget -qO- https://raw.githubusercontent.com/xiv3r/Acunetix-v24.10.241106172/refs/heads/main/config.sh | sudo sh
+#wget -qO- https://raw.githubusercontent.com/salmanmehbub/Acunetix-v24.10.241106172/refs/heads/main/config.sh | sudo sh
 
-git clone https://github.com/xiv3r/Acunetix-v24.10.241106172.git
+git clone https://github.com/salmanmehbub/Acunetix-v24.10.241106172.git
 
 cd Acunetix-v24.10.241106172
 
-wget https://github.com/xiv3r/Acunetix-v24.10.241106172/releases/download/acunetix/acunetix_24.10.241106172_x64.sh
+wget https://github.com/salmanmehbub/Acunetix-v24.10.241106172/releases/download/acunetix/acunetix_24.10.241106172_x64.sh
 
 bash acunetix_24.10.241106172_x64.sh
 
