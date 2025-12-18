@@ -6,24 +6,24 @@
 <p align="center"> Acunetix by Invicti Security is an application security testing tool built to help small & mid-size organizations around the world take control of their web security.
 </p>
 
-<p align="center"><img src="https://github.com/xiv3r/Acunetix-v24.10.241106172/blob/main/acunetix-premium.png">
+<p align="center"><img src="https://github.com/salmanmehbub/Acunetix-v24.10.241106172/blob/main/acunetix-premium.png">
  
 <br></br>
 
 ## install config
 ```
-wget -qO- https://raw.githubusercontent.com/xiv3r/Acunetix-v24.10.241106172/refs/heads/main/config.sh | sudo sh
+wget -qO- https://raw.githubusercontent.com/salmanmehbub/Acunetix-v24.10.241106172/refs/heads/main/config.sh | sudo sh
 ```
 ## clone the repo
 ```
-git clone https://github.com/xiv3r/Acunetix-v24.10.241106172.git
+git clone https://github.com/salmanmehbub/Acunetix-v24.10.241106172.git
 ```
 ```
 cd Acunetix-v24.10.241106172
 ```
 ## download the acunetix
 ```
-wget https://github.com/xiv3r/Acunetix-v24.10.241106172/releases/download/acunetix/acunetix_24.10.241106172_x64.sh
+wget https://github.com/salmanmehbub/Acunetix-v24.10.241106172/releases/download/acunetix/acunetix_24.10.241106172_x64.sh
 ```
 ## install the tools
 ```
