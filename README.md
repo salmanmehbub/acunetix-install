@@ -116,8 +116,3 @@ Log in using the email and password created during installation.
   <li>Service name: <code>acunetix</code></li>
   <li>Installation is fully automated after user setup</li>
 </ul>
-
-<p align="center">
-<b>Developed by Invicti Security</b><br>
-Acunetix Web Vulnerability Scanner
-</p>
