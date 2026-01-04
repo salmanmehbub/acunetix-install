@@ -1,110 +1,141 @@
-Acunetix Installation Guide (Linux)
+<h1 align="center">Acunetix Installation Guide (Linux)</h1>
 
-This guide explains how to install Acunetix using the automated installer script.
+<p align="center">
+Automated installation guide for Acunetix using the official installer script.<br>
 Tested on Kali Linux and other Debian-based distributions.
+</p>
 
-📌 Prerequisites
+<hr>
 
-Linux system (Kali / Ubuntu / Debian)
+<h2>📌 Prerequisites</h2>
+<ul>
+  <li>Linux system (Kali / Ubuntu / Debian)</li>
+  <li>Root or sudo access</li>
+  <li>Active internet connection</li>
+</ul>
 
-Root or sudo access
+<hr>
 
-Internet connection
+<h2>🚀 Quick Installation</h2>
 
-🚀 Quick Installation
+<p><b>Important:</b> Become root or use <code>sudo</code> before running the commands below.</p>
 
-Important: Become root or use sudo before running the commands below.
-
-1️⃣ Download the Installer Script
+<pre>
 wget https://raw.githubusercontent.com/salmanmehbub/acunetix-install/refs/heads/main/acunetix_install.sh
-
-
-Make the script executable:
-
 chmod +x acunetix_install.sh
-
-
-Run the installer:
-
 ./acunetix_install.sh
+</pre>
 
-🧭 Installer Walkthrough
+<hr>
 
-During installation, you will see prompts similar to the following.
+<h2>🧭 Installer Walkthrough</h2>
 
-Installer Banner
+<h3>Installer Banner</h3>
+<pre>
 ------------------Acunetix Install-----------------
 Acunetix Installer Version: v_241106172
 Copyright (c) Acunetix
 --------------------------------------------------
+</pre>
 
-OS Check
+<h3>OS Check</h3>
+<pre>
 Checking os...
 Warning: no dependencies configured.
+</pre>
 
-License Agreement
+<h3>License Agreement</h3>
+<p>You will be asked to review and accept the license agreement.</p>
 
-You will be asked to review and accept the license agreement.
-
+<pre>
 Please read the following License Agreement.
 Press ENTER to continue
->>> 
+>>>
+</pre>
 
+<p><b>Action:</b> Press <b>ENTER</b></p>
 
-➡️ Press ENTER
-
+<pre>
 Accept the license terms? [yes|no]
 [no] >>> yes
+</pre>
 
+<p><b>Action:</b> Type <b>yes</b> and press ENTER</p>
 
-➡️ Type yes and press ENTER
+<hr>
 
-Hostname Configuration
+<h3>Hostname Configuration</h3>
+
+<pre>
 Configuring hostname...
 Insert new hostname, or leave blank to use kali
 Hostname [kali]:
+</pre>
 
+<p><b>Action:</b> Press <b>ENTER</b> to keep the default hostname.</p>
 
-➡️ Press ENTER to keep the default hostname (recommended for local installation).
+<hr>
 
-Master User Configuration
+<h3>Master User Configuration</h3>
 
-You will now create the admin account for Acunetix.
+<p>Configure the admin account for Acunetix.</p>
 
+<pre>
 Configuring the master user...
 Email: admin@admin.com
 Password:
 Password again:
+</pre>
 
+<p>
+You may use <b>any email address</b>.<br>
+Make sure to remember the email and password — they are required to log in.
+</p>
 
-➡️ You may use any email address.
-➡️ Remember this email and password — it will be used to log in.
+<hr>
 
-✅ Installation Complete
+<h2>✅ Installation Complete</h2>
 
-After this step, Acunetix will install automatically without further input.
+<p>
+After this step, Acunetix will install automatically without further user input.
+</p>
 
-🌐 Access Acunetix Web Interface
+<hr>
 
-Find your system IP address:
+<h2>🌐 Access Acunetix Web Interface</h2>
 
+<p>Find your system IP address:</p>
+
+<pre>
 ip a
+</pre>
 
+<p>Open your browser and visit:</p>
 
-Open your browser and visit:
-
+<pre>
 https://YOUR_KALI_LINUX_IP:3443
+</pre>
 
+<p>
+Log in using the email and password created during installation.
+</p>
 
-Log in using the email and password you created during installation.
+<hr>
 
-📎 Notes
+<h2>📎 Notes</h2>
+<ul>
+  <li>Default HTTPS port: <b>3443</b></li>
+  <li>Service name: <code>acunetix</code></li>
+  <li>Installation is fully automated after user setup</li>
+</ul>
 
-Default HTTPS port: 3443
+<hr>
 
-Service name: acunetix
+<p align="center">
+<b>Developed by Invicti Security</b><br>
+Acunetix Web Vulnerability Scanner
+</p>
 
-Installation is fully automated after user setup
 
 <h1 align="center"> Acunetix-v24.10.241106172
 </h1>
