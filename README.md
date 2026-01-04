@@ -5,8 +5,6 @@ Automated installation guide for Acunetix using the official installer script.<b
 Tested on Kali Linux and other Debian-based distributions.
 </p>
 
-<hr>
-
 <h2>📌 Prerequisites</h2>
 <ul>
   <li>Linux system (Kali / Ubuntu / Debian)</li>
