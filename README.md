@@ -12,8 +12,6 @@ Tested on Kali Linux and other Debian-based distributions.
   <li>Active internet connection</li>
 </ul>
 
-<hr>
-
 <h2>🚀 Quick Installation</h2>
 
 <p><b>Important:</b> Become root or use <code>sudo</code> before running the commands below.</p>
@@ -23,8 +21,6 @@ wget https://raw.githubusercontent.com/salmanmehbub/acunetix-install/refs/heads/
 chmod +x acunetix_install.sh
 ./acunetix_install.sh
 </pre>
-
-<hr>
 
 <h2>🧭 Installer Walkthrough</h2>
 
@@ -60,8 +56,6 @@ Accept the license terms? [yes|no]
 
 <p><b>Action:</b> Type <b>yes</b> and press ENTER</p>
 
-<hr>
-
 <h3>Hostname Configuration</h3>
 
 <pre>
@@ -72,7 +66,6 @@ Hostname [kali]:
 
 <p><b>Action:</b> Press <b>ENTER</b> to keep the default hostname.</p>
 
-<hr>
 
 <h3>Master User Configuration</h3>
 
@@ -90,7 +83,6 @@ You may use <b>any email address</b>.<br>
 Make sure to remember the email and password — they are required to log in.
 </p>
 
-<hr>
 
 <h2>✅ Installation Complete</h2>
 
@@ -98,7 +90,6 @@ Make sure to remember the email and password — they are required to log in.
 After this step, Acunetix will install automatically without further user input.
 </p>
 
-<hr>
 
 <h2>🌐 Access Acunetix Web Interface</h2>
 
@@ -118,7 +109,6 @@ https://YOUR_KALI_LINUX_IP:3443
 Log in using the email and password created during installation.
 </p>
 
-<hr>
 
 <h2>📎 Notes</h2>
 <ul>
@@ -126,8 +116,6 @@ Log in using the email and password created during installation.
   <li>Service name: <code>acunetix</code></li>
   <li>Installation is fully automated after user setup</li>
 </ul>
-
-<hr>
 
 <p align="center">
 <b>Developed by Invicti Security</b><br>
