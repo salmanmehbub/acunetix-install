@@ -121,12 +121,3 @@ Log in using the email and password created during installation.
 <b>Developed by Invicti Security</b><br>
 Acunetix Web Vulnerability Scanner
 </p>
-
-
-<h1 align="center"> Acunetix-v24.10.241106172
-</h1>
-
-<p align="center"> Acunetix by Invicti Security is an application security testing tool built to help small & mid-size organizations around the world take control of their web security.
-</p>
-
-
